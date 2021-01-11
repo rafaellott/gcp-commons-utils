@@ -142,6 +142,15 @@ dmypy.json
 .vscode/
 version.json
 
+# CloudSQL proxy handler
+cloud_sql_proxy
+
+# resources
+full_email.html
+requirements.txt
+service_account_key.json
+!/backend/adapters/gateway/cloud_functions/*/requirements.txt
+
 ### NodeJS ###
 node_modules/
 

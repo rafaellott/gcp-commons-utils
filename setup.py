@@ -11,7 +11,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="gcp-commons-utils",
-    version="0.1.0",
+    version="1.0.0",
     description="Utils to be used along Google Cloud Platform components",
     long_description=README,
     long_description_content_type="text/markdown",

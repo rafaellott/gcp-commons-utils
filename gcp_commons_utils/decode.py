@@ -16,7 +16,7 @@ def decode_input_to_dict(input_request):
     try:
         input_request = json.loads(input_request)
         return input_request
-    except UnicodeDecodeError:
+    except json.decoder.JSONDecodeError:
         pass
 
     try:
